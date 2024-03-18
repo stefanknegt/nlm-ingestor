@@ -348,7 +348,7 @@ class BlockRenderer:
                         table_block["top"],
                         table_block["left"] + block["box_style"][3],
                         table_block["top"] + block["box_style"][4],
-                    ]  if "box_style" in block and left in "table_block" else []                 
+                    ]  if "box_style" in block and "left" in table_block else []                 
                 table_rows = []
 
         return render_dict
